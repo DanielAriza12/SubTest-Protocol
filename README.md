@@ -20,7 +20,7 @@ SCADAs, probar señales punto a punto, validar archivos IEC 61850 y generar el i
 | **Protocol Simulator** | Simula **maestros y esclavos** de **DNP3**, **Modbus TCP/RTU** e **IEC 60870-5-104**. Sirve para probar SCADAs, RTUs, gateways y relés sin tener el equipo real. |
 | **Signal Testing** | Pruebas **punto a punto** de entradas y salidas digitales, analógicas y comandos (DI · DO · AI). Cada señal se marca OK / Falla / N/A, con observaciones. |
 | **SCL Validator** | Valida archivos **IEC 61850** (ICD, CID, IID, SCD, SSD, SED). Indica cada error con su línea, dónde está y **cómo corregirlo**. |
-| **Test Reports** | Genera informes de **FAT / SAT** en PDF, HTML o Excel, con resultados, evidencias y bitácora de comandos. |
+| **Test Reports** | Genera informes de **FAT / SAT** en PDF, HTML o CSV (compatible con Excel), con resultados, evidencias y bitácora de comandos. |
 
 ---
 
@@ -62,7 +62,7 @@ resaltada y la sugerencia de corrección.
 
 **Pruebas e informes**
 - Mapeo de señales esperadas para detectar las que **no llegan**.
-- Informes en PDF, HTML o CSV con porcentaje de avance, resultados y bitácora.
+- Informes en PDF, HTML o CSV (compatible con Excel) con porcentaje de avance, resultados y bitácora.
 - Proyectos guardables, importación y exportación de señales en CSV.
 
 **Interfaz**
